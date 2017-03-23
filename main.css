@@ -1,0 +1,47 @@
+body{
+  background: #fff;
+}
+
+#game-base {
+  width:640px;
+  margin:0 auto;
+  padding-top:60px;
+}
+
+#game-table {
+  width:434px;
+  height:374px;
+  margin:0 auto;
+  position:relative;
+}
+
+.disc {
+  position:absolute;
+  z-index:-1;
+  top:-55px;
+  left:14px;
+  width:46px;
+  height:46px;
+  border-radius:46px;
+  transition:all .3s;
+}
+
+.disc.red {
+  background:#ff0000;
+}
+
+.disc.blue {
+  background:#0000ff;
+}
+
+.info  {
+  text-align: center;
+  color: ;
+  text-decoration-style: solid;
+}
+
+div#game-base {
+  border: 2px solid black;
+  padding-left: 3em;
+  padding-right: 4em;
+}
