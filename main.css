@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body{
   background: #fff;
 }
@@ -31,15 +27,21 @@ body{
 }
 
 .disc.red {
-  background:#d96666;
+  background:#ff0000;
 }
 
-.disc.yellow {
-  background:#ffeb79;
+.disc.blue {
+  background:#0000ff;
 }
 
 .info  {
   text-align: center;
   color: ;
   text-decoration-style: solid;
+}
+
+div#game-base {
+  border: 2px solid black;
+  padding-left: 3em;
+  padding-right: 4em;
 }
